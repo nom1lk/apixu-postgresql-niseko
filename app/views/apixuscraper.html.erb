@@ -1,0 +1,31 @@
+
+
+
+
+<h1>Niseko 7 day forecast</h1>
+<% @descArray.each do |desc| %>
+  <table>
+
+
+  	<tr>
+  		<td>
+  <p>Date: <%= desc.date %></p>
+  <p>Max Temp: <%= desc.maxtemp_c %></p>
+  <p>Min Temp: <%= desc.mintemp_c %></p>
+  <p>Max Wind: <%= desc.maxwind_kph %></p>
+  <p>Rain (mm): <%= desc.totalprecip_mm %></p>
+  <p><%= desc.text %></p></br>
+</td>
+<td>
+  <p><%= image_tag desc.icon %></p></br>
+</td>
+</tr>
+
+
+</table>
+  </br>
+<% end %>
+
+
+
+
