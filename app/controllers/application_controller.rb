@@ -32,7 +32,7 @@ end
 def apiuxscraper
 @descArray = []
 require 'open-uri'
-require 'Nokogiri'
+#require 'Nokogiri'
 
 xml = Nokogiri::HTML(open("http://api.apixu.com/v1/forecast.xml?key=84632fe14e35400f85f32516182401&q=niseko&days=10"))
 forecast = xml.xpath('//forecast')
