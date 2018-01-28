@@ -37,4 +37,6 @@ Further links on scraping XML/CSS
 https://coderwall.com/p/03r98q/using-the-nokogiri-gem-to-parse-nested-xml-data-in-ruby
 http://adrianmcli.com/2015/05/23/rails-scraping-tutorial/
 
+Deployment on heroku for rails 5 link:
+https://devcenter.heroku.com/articles/getting-started-with-rails5
 
