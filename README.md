@@ -1,24 +1,27 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+App: https://niseko-forecast.herokuapp.com/
+API: https://www.apixu.com/
+XML: (accessed through apixu URL with key, location, and number of days forecast appended)
 
-Things you may want to cover:
+What it does: 
+- grabs weather data from www.apixu.com API 
+- presents the data in the HTML
 
-* Ruby version
 
-* System dependencies
+Configuration:
+- PostgreSQL for dev/prod
 
-* Configuration
+Reminders:
+- Include the following *inside* the controller method 
+require 'open-uri'
+require 'nokogiri'
 
-* Database creation
+- Include ruby '2.4.2' in gemfile
 
-* Database initialization
+- Create app with rails new appName --database=postgresql
 
-* How to run the test suite
+- Push to git and deploy to heroku as usual
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
 
-* ...
