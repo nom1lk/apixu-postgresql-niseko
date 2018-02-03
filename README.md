@@ -40,3 +40,7 @@ http://adrianmcli.com/2015/05/23/rails-scraping-tutorial/
 Deployment on heroku for rails 5 link:
 https://devcenter.heroku.com/articles/getting-started-with-rails5
 
+Adrian on Nokogiri and open-uri:
+http://adrianmcli.com/2015/05/23/rails-scraping-tutorial/
+
+
